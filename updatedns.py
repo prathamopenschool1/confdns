@@ -4,6 +4,8 @@ import requests
 import os
 from zipfile import ZipFile
 
+os.system('sudo pip3 install zipfile36')
+
 
 def upgrade_dns():
     print("wait while list is updating...")
